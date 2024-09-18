@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Queen's Den</title>
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <!-- adding css  -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -39,9 +42,11 @@
 
 
     <section class="sectionFirst" >
+           <video autoplay loop muted id="bgVideo">
+        <source src="https://joshua-langeveldt.github.io/images/images/Queen Den/bg-video.mp4" type="video/mp4">
+    </video>
         <img src="https://joshua-langeveldt.github.io/images/images/Logo/king2.webp" alt="crown">
         <div class="frontPage">
-            <!-- <div class="address">96B, Bonteheuwel, Cape Town</div> -->
             <h2 class="heading">Welcome To Queen's Den</h2>
             <p class="para">"Come As a PRINCESS, Leave As a QUEEN"</p>
             <div class="btn">
@@ -81,25 +86,29 @@
 
     <!-- section three  -->
     <section class="sectionThree">
-        <h2>Services For Every Occasion</h2>
-        <p>List down special Services you offer an occasions like weddings, etc</p>
+        <h2 class="eadinghay">Why Choose Us ?</h2>
+        <p class="logansay">“Where Royalty Meets Glamour & Quality Meets Craftmanship”</p>
 
         <div class="servicesBox">
             <div class="box">
-                <h2>Weddings Makeup</h2>
-                <p>A little detail about the services you've mentioned aboved. Tell them what you do</p>
+                <img src="https://joshua-langeveldt.github.io/images/images/Icons/services-ico.png" alt="Icon">
+                <h2 class="box-heading">Service Variety</h2>
+                <p class="box-text">The best nail salons offer a wide range of services, from basic manicures and pedicures to more specialized treatments like nail art, gel nails, and spa treatments. Having options ensures you can find exactly what you’re looking for.</p>
             </div>
             <div class="box">
-                <h2>Party Makeup</h2>
-                <p>A little detail about the services you've mentioned aboved. Tell them what you do</p>
+                <img src="https://joshua-langeveldt.github.io/images/images/Icons/high-quality-ico.png" alt="Icon">
+                <h2 class="box-heading">Quality Products</h2>
+                <p class="box-text">Look for salons that use quality nail products. Premium polishes, top coats, and nail treatments contribute to better results and longer-lasting manicures.</p>
             </div>
             <div class="box">
-                <h2>Fashion Makeup</h2>
-                <p>A little detail about the services you've mentioned aboved. Tell them what you do</p>
+                <img src="https://joshua-langeveldt.github.io/images/images/Icons/best-price-ico.png" alt="Icon">
+                <h2 class="box-heading">Pricing</h2>
+                <p class="box-text">Consider your budget. High-quality services often come at a higher price, but they’re worth it for the overall experience and results. However, if you’re on a budget, explore new or smaller salons—they might surprise you!</p>
             </div>
             <div class="box">
-                <h2>Photo Makeup</h2>
-                <p>A little detail about the services you've mentioned aboved. Tell them what you do</p>
+                <img src="https://joshua-langeveldt.github.io/images/images/Icons/nail-innovation-ico.png" alt="Icon">
+                <h2 class="box-heading">Innovation</h2>
+                <p class="box-text"> Choose a salon that keeps up with the latest trends and techniques. Whether it’s nail art, unique designs, or innovative treatments, staying current shows dedication to excellence.</p>
             </div>
         </div>
     </section>
@@ -107,155 +116,200 @@
     <!-- discount section  -->
     <section class="DiscountSection">
 
-        <div class="img">
-            <img src="./img/25off.png" alt="">
-        </div>
+        <lord-icon
+        src="https://cdn.lordicon.com/lenjvibx.json"
+        trigger="hover"
+        delay="1500"
+        stroke="light"
+        state="in-reveal"
+        colors="primary:#ffffff,secondary:#ffffff"
+        style="width:250px;height:250px">
+    </lord-icon>
 
         <div class="textinfo">
-            <h2>Book Your Appointment Now And Get 25% Off</h2>
-            <p>Awesome Monsoon Sale - 25% Off on All Professional Make Up only 5$</p>
+            <h2>Book Your Reservations</h2>
+            <p>'Book Now, Blossom Later, Queen's Den Awaits'</p>
         </div>
 
-        <a href="#">BOOK AN APPINTMENT</a>
+        <a href="#">BOOK AN APPOINTMENT</a>
     </section>
 
     <!-- transformBox -->
     <div class="transformBox">
-        <h2>Priced Beauty Solutions</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore id earum, voluptas consectetur explicabo
-            tempore aut placeat blanditiis dolores dolorum.</p>
+        <h2>Price List</h2>
+        <p>Come as a Princess, Leave as a Queen</p>
     </div>
 
     <!-- section five  -->
     <section class="sectionFive">
         <div class="BeautySolutions">
-            <h2>Hair Cuts</h2>
+            <h2>Mani & Pedis</h2>
             <span></span>
             <ul>
-                <li>Women's Haircut <span>$95</span></li>
-                <li>Teen's Haircut <span>$40+</span></li>
-                <li>Stylish Haircut <span>$55</span></li>
-                <li>Children's Haircut <span>$40+</span></li>
+                <li>Mini Mani / Pedi <span>R50</span></li>
+                <li>Full Mani / Pedi <span>R120</span></li>
+                <li>Parafin Manicure / Pedicure <span>R150</span></li>
+                <li>Kids Mani / Pedi (U 12Y) <span>R80</span></li>
             </ul>
         </div>
         <div class="BeautySolutions">
-            <h2>Make Up</h2>
+            <h2>Massages</h2>
             <span></span>
             <ul>
-                <li>Women's Haircut <span>$95</span></li>
-                <li>Teen's Haircut <span>$40+</span></li>
-                <li>Stylish Haircut <span>$55</span></li>
-                <li>Children's Haircut <span>$40+</span></li>
+                <li>Full Body (30min) <span>R150</span></li>
+                <li>Full Body (60min) <span>R300</span></li>
+                <li>Back & Neck <span>R160</span></li>
+                <li>Legs & Feet <span>R120</span></li>
             </ul>
         </div>
         <div class="BeautySolutions">
-            <h2>Hair Color</h2>
+            <h2>Waxing</h2>
             <span></span>
             <ul>
-                <li>Women's Haircut <span>$95</span></li>
-                <li>Teen's Haircut <span>$40+</span></li>
-                <li>Stylish Haircut <span>$55</span></li>
-                <li>Children's Haircut <span>$40+</span></li>
+                <li>Eyebrows / Lips / Chin <span>R50</span></li>
+                <li>Brow Tinting <span>R40</span></li>
+                <li>Full Leg <span>R250</span></li>
+                <li>Full Arm <span>R200</span></li>
             </ul>
         </div>
         <div class="BeautySolutions">
-            <h2>Skin Care</h2>
+            <h2>Acrylic Nails</h2>
             <span></span>
             <ul>
-                <li>Women's Haircut <span>$95</span></li>
-                <li>Teen's Haircut <span>$40+</span></li>
-                <li>Stylish Haircut <span>$55</span></li>
-                <li>Children's Haircut <span>$40+</span></li>
+                <li>Full Set Acrylic Tips<span>R280</span></li>
+                <li>French Acrylic Tips <span>R260</span></li>
+                <li>Acrylic Overlay <span>R190</span></li>
+                <li>Fill (2 Weeks) <span>R110</span></li>
             </ul>
         </div>
     </section>
 
-    <!-- section six  -->
-    <section class="sectionSix">
-        <h2>Review Us</h2>
-        <div class="icon">
-            <a href="#" class="fa-brands fa-facebook-f"></a>
-            <a href="#" class="fa-brands fa-google"></a>
-            <a href="#" class="fa-brands fa-instagram"></a>
-        </div>
+<!-- Section Six - Testimonials Slider -->
+<section class="sectionSix" id="testimonials">
+    <h2 class="customTesti">What Our Clients Say</h2>
+    <div class="slider">
+        <input type="radio" name="testimonial" id="t-1" >
+        <input type="radio" name="testimonial" id="t-2">
+        <input type="radio" name="testimonial" id="t-3" checked>
+        <input type="radio" name="testimonial" id="t-4">
+        <input type="radio" name="testimonial" id="t-5">
 
-        <div class="imgicon">
-            <img src="./img/test150x150.jpg" alt="">
-            <i class="fa-solid fa-quote-right"></i>
-        </div>
+        <div class="testimonials">
+            <label class="item" for="t-1">
+                <img src="./img/keziah.jpg" alt="picture">
+                <div class="testimonial-content">
+                    <h3>Keziah Langeveldt</h3>
+                    <p>“ Walking into Queen's Den feels like stepping into a tranquil oasis. The calming ambiance, soft music, and skilled nail technicians create an experience that’s both relaxing and rejuvenating. My nails have never looked better! ”</p>
+                </div>
+            </label>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A rem soluta cupiditate, asperiores consectetur
-            voluptate, dolor deleniti assumenda laboriosam quae culpa natus iure eum quidem cum ducimus fugit tempora
-            sint. <small>AnmolKeCode</small></p>
-    </section>
+            <label class="item" for="t-2">
+                <img src="./img/faadia.jpg" alt="picture">
+                <div class="testimonial-content">
+                    <h3>Faadia Muller</h3>
+                    <p>“ I’m thrilled with the nail services at Queen's Den. The gel manicure I received lasted flawlessly for weeks, and the color selection is impressive. Plus, the staff genuinely cares about their clients’ satisfaction. If you want gorgeous nails, this is the place to go! ”</p>
+                </div>
+            </label>
+
+            <label class="item" for="t-3">
+                <img src="./img/Leah.jpg" alt="picture">
+                <div class="testimonial-content">
+                    <h3>Leah Basson</h3>
+                    <p>“ I recently treated myself to a manicure and pedicure at Queen's Den, and it was amazing. The nail technician was meticulous, ensuring my nails were shaped perfectly and my cuticles were well-tended. The soothing hand massage was the cherry on top. Can’t wait for my next appointment! ”</p>
+                </div>
+            </label>
+
+            <label class="item" for="t-4">
+                <img src="https://images.unsplash.com/photo-1512485694743-9c9538b4e6e0?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="picture">
+                <div class="testimonial-content">
+                    <h3>Mariam Langeveldt</h3>
+                    <p>“ Queen’s Den is my go-to place for pampering. From the moment I walked in, I felt like royalty. The staff treated me with the utmost care and professionalism. I’ve never felt more pampered and I would highly recommend Queen's Den to any woman! ”</p>
+                </div>
+            </label>
+
+            <label class="item" for="t-5">
+                <img src="./img/lynn.jpg" alt="picture">
+                <div class="testimonial-content">
+                    <h3>Lynn Basson</h3>
+                    <p>"Best decision ever! I decided to try Queen’s Den on a friend’s recommendation, and I’m so glad I did. The service is impeccable, and the staff is so friendly and welcoming. My nails have never looked better, and I always leave feeling refreshed."</p>
+                </div>
+            </label>
+        </div>
+        <div class="dots">
+            <label for="t-1"></label>
+            <label for="t-2"></label>
+            <label for="t-3"></label>
+            <label for="t-4"></label>
+            <label for="t-5"></label>
+        </div>
+    </div>
+</section>
 
     <!-- beforefooter  -->
     <div class="beforefooter">
         <div class="box">
-            <div class="logo">Ak Beauty Salon</div>
-            <div class="bf-text">AnmolKeCode</div>
-            <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsam sit magni et
-                consequatur, tenetur ab doloremque totam necessitatibus inventore optio qui? Inventore vel quibusdam
-                exercitationem, nulla asperiores fugiat totam!</p>
-
-            <div class="bf-text">Subscribe For Offers</div>
-
-            <div class="subscribe">
-                <input type="text" name="" id="">
-                <button class="btn">subscribe</button>
-            </div>
+            <img class="footer-crown" src="https://joshua-langeveldt.github.io/images/images/Logo/king2.webp" alt="crown">
+            <div class="logo">Queen's Den</div>
+            <div class="bf-text">Come As a <span class="special-word">PRINCESS</span>, Leave As a <span class="special-word">QUEEN</span></div>
+            <p class="para">Embark on a journey, where colors bloom and fingertips find their groove!
+                Where every stroke is pure delight, and nail art takes flight, in our cozy salon,
+                bathed in soft candlelight. Where lacquers swirl, and cuticles twirl, at “Queen's Den,”
+                where your nails become the sweetest canvas in the world!</p>
         </div>
 
         <div class="box">
             <div class="bf-text">Quick Links</div>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./protfolio.html">protfolio</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li class="extra-li"><a href="./index.html">Home</a></li>
+                <li class="extra-li"><a href="./about.html">About</a></li>
+                <li class="extra-li"><a href="./services.html">Services</a></li>
+                <li class="extra-li"><a href="./protfolio.html">Gallery</a></li>
+                <li class="extra-li"><a href="./contact.html">Contact</a></li>
             </ul>
 
             <div class="bf-text">Follow Us</div>
             <div class="icons">
-                <a href="#" class="fa-brands fa-facebook-f"></a>
-                <a href="#" class="fa-brands fa-google"></a>
-                <a href="#" class="fa-brands fa-instagram"></a>
-                <a href="#" class="fa-brands fa-youtube"></a>
+                <a href="https://www.facebook.com/KiyarahLangeveld/photos_by" class="fa-brands fa-facebook-f" target="_blank"></a>
+                <a href="https://www.bing.com/search?q=kiyarah+queens+den&cvid=a9adcffcbb9749afa44bb56e12087205&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcwNzRqMGo0qAIIsAIB&FORM=ANAB01&PC=LCTS" class="fa-brands fa-google" target="_blank"></a>
+                <a href="https://www.instagram.com/queensden_/" class="fa-brands fa-instagram" target="_blank"></a>
             </div>
         </div>
 
         <div class="box">
             <div class="bf-text">Say Hi! </div>
             <ul class="SayHi">
-                <li><a href="./index.html">info@example.com</a></li>
-                <li><a href="./about.html">contact@example.com</a></li>
+                <li class="extra-li"><a href="./index.html">langeveldt20joshua@gmail.com</a></li>
+                <li class="extra-li"><a href="./about.html">contact@example.com</a></li>
             </ul>
 
             <div class="bf-text">Call Us</div>
             <ul class="SayHi">
-                <li>Phone :+1 2334325532</li>
-                <li>Toll Free:+1 2334325532</li>
+                <li class="extra-li">Phone :+27 78 450 3293</li>
             </ul>
 
             <div class="bf-text">Find Us</div>
 
             <div class="address">
-                123 Fifth Avenue, Opp Hut, New York, USA
+                96B Bonteheuwel Avenue, Bonteheuwel, Cape Town
             </div>
 
         </div>
+            <!-- footer  -->
+            <div class="fbox">Copyright &copy; 2024 All Rights Reserved.&mdash; Designed By <a href="https://vueportfolio-d4711.web.app/" class="portfolio text-decoration-none text-black" target="_blank">King20Legend</a></div>
+            <div class="fbox foot-text">Powered By Queen's Den</div>
     </div>
 
-    <!-- footer  -->
-    <footer>
-        <div class="fbox">Copyright &copy; 2023 AK Beauty Salon</div>
-        <div class="fbox">Powered By AK Beauty Salon</div>
-    </footer>
+
 
 
     <!-- js  -->
     <script src="./js/script.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <!-- BootStrap Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
